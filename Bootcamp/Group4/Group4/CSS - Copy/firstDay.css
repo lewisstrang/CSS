@@ -1,0 +1,66 @@
+/* selector select HTML element
+CSS single ele,ment
+CSS Grouping
+CSS ID selector only one can have id
+CSS Class Selector class can be shared
+# only one for element
+. will include all class
+can group .p and #p
+* all child element of class
+
+WEBSAVE FONTS AND WEBFONTS
+*/
+p{
+    color: aqua;
+}
+#h2{
+    color: blue;
+}
+.p2{
+    background-color: brown;
+}
+.div1 h3{
+    background-color: beige;
+}
+input [name="firstName"]
+{
+    color-interpolation-filters: sRGB;
+}
+div.div1{
+    font-size: 20px;
+}
+h2 {
+    color: blanchedalmond!important;
+}
+/* adding downloaded font */
+
+ @font-face {
+    font-family: "Gothic add src from file downloaded";
+    
+ }
+ p{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+ .font{
+    font-variant: small-caps;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 55px;
+    letter-spacing: 10px;
+    font-style: italic;
+    font-size: 30px;
+ }
+.h{
+    color: rgba(red, green, blue, alpha);
+    background-color: hsla(hue, saturation, lightness, alpha);
+}
+.mpfw {
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+}
+/* body{
+    background-image: url("/");
+height: auto;
+width: ;
+
+} */

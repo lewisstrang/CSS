@@ -1,0 +1,175 @@
+body{
+    background: linear-gradient(#0c120c, #09ECE5, #FFFFFF);
+}
+header{
+    color: #FFFFFF;
+}
+input[type="text"]{
+    border: 0px;
+    border-bottom: 3px solid black;
+    height: 300px;
+    width: 250px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 30px;
+    cursor: crosshair;
+    font-size: 20px;
+    /* remove border for textbox */
+    outline: 0px;
+}
+.avatar{
+    float: left;
+}
+.h1, .h2{
+    display: inline;
+    background-color: blue;
+}
+.h3{
+    display: block;
+    height: 200px;
+    background-color: blue;
+}
+.h4{
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+    background-color: aqua;
+}
+.div1{
+    color: black;
+    visibility: hidden;
+    display: flex;
+}
+.div2{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    /* visibility: hidden;
+    display: none; */
+}
+.yoga{
+    width: 250px;
+    height: 250px;
+    padding-top: 25px;
+    padding-left: 25px;
+
+}
+.data2{
+    visibility: hidden;
+}
+.data3{
+    visibility: collapse;
+}
+
+/* static
+relative
+absolute
+sticky */
+.div6{
+    height: 600px;
+    width: 300px;
+    background-color: blueviolet; 
+    position: relative;
+    top: 50px;
+}
+.div7{
+    height: 400px;
+    width: 300px;
+    background-color: #203456;
+    position: relative;
+    top: 50px;
+}
+.div8{
+    height: 200px;
+    width: 250px;
+    background-color: aqua;
+    position: relative;
+    top: 50px;
+    /* position: absolute;
+    top
+    left */
+}
+.bird{
+    height: 350px;
+    width: 300px;
+}
+.divbird{
+    position: sticky;
+    top: 30px;
+}
+.sticky{
+    position: sticky;
+    top: 30px;
+    display: inline;
+}
+.sticky2{
+    border-radius: 30px;
+    position: sticky;
+    top: 15px;
+    right: 15px;
+    float: left;
+    
+}
+button{
+    font-size: medium;
+    background: #FFFFFF;
+    color: #09ECE5;
+    border-radius: 16px;
+    padding: 0.35cm 0.5cm;
+    padding-left: 0.45cm;
+    display: flex;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+.bird{
+    ruby-position: after;
+    position: relative;
+    padding-left: 600px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    overflow: auto;
+    background-color: #df4f4f;
+}
+li a{
+    color: #09ECE5;
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+li{
+    float: left;
+    background-color: #203456;
+    
+    /* display - inline also works to space menu */
+}
+li a:hover{
+    background-color: #FFFFFF;
+}
+.sticky3{
+    position: fixed;
+    top: 172px;
+    left: 210px;
+    /* z-index: ; */
+}
+.dropdown{
+    position: static;
+    display: block; 
+    
+}
+.dropdown a:hover menu {
+    float: left;
+    position: relative;
+    /* display: contents;[list-item]; */
+    
+    
+}
+
+
+/* interactive drop down menu - hover
+display property none when hover on subject makes it visible
+list inside of list item */

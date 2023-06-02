@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(34,193,195);
+background: linear-gradient(0deg, rgb(20, 2, 212) 0%, rgba(253,187,45,1) 100%);
+}
+.span1{
+    height: 300px;
+    width: 300px;
+}
+#pablo{
+    border: 0cap;
+    padding-left: 10px;
+    margin: 3000px;
+    border-radius: 50px;
+}
+.float img{
+    float: right;
+}
+.float{
+    float: left;
+}
+a:link{
+    text-decoration: wavy;
+    color: rgb(20, 2, 212);
+}
+a:hover{
+    color: rgba(253,187,45,1);
+    
+}
+a:active{
+    color: black;
+}
+a:visited{
+    font-size: smaller;
+}
+a:focus{
+    font-size: 40px;
+}
